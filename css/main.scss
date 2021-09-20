@@ -21,8 +21,24 @@ body {
             color: var(--primary-color);
         }
     }
+    nav {
+        display: none;
+    }
+    .container {
+        display: flex;
+        place-content: space-between;
+    }
+    .mobile-menu {
+        cursor: pointer;
+    }
 }
 
-nav {
-    display: none;
+a {
+    color: #444;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }

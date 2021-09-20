@@ -25,7 +25,28 @@ body {
   color: var(--primary-color);
 }
 
-nav {
+.navbar nav {
   display: none;
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+a {
+  color: #444;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
