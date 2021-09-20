@@ -49,4 +49,12 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+section {
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */
