@@ -75,4 +75,27 @@ section {
     font-weight: bold;
     display: inline-block;
   }
+
+  .watch-video-cta {
+    display: block;
+    margin-top: 1em;
+  }
+
+  img {
+    margin-right: 0.5em;
+  }
+}
+
+.hero-img {
+  width: 70%;
+  margin-top: 3em;
+}
+.features-section {
+  background-color: #20272e;
+  color: white;
+}
+
+ul.features-list {
+  margin: 0;
+  padding-left: 0.1em;
 }
