@@ -98,7 +98,8 @@ section {
 ul.features-list {
   margin: 0;
   padding-left: 0.1em;
-  //come back to this
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
 
   li {
     font-size: 1.1em;
@@ -246,10 +247,26 @@ nav {
     a {
       color: black;
       font-size: 1em;
-      padding: o.1em 1em;
+      padding: 0.1em 1em;
     }
     ul.primary-nav {
       margin: 0;
+    }
+
+    li.current a {
+      font-weight: bold;
+    }
+    li.go-premium-cta a {
+      color: var(--primary-color);
+      border: 3px solid var(--primary-color);
+      font-weight: bold;
+      border-radius: 5em;
+      margin-top: -0.2em;
+
+      &:hover {
+        background: var(--primary-color);
+        color: white;
+      }
     }
   }
 }
