@@ -358,3 +358,15 @@ nav {
     }
   }
 }
+
+@media only screen and (min-width: 1450px) {
+  .features-section {
+    &::before {
+      content: "";
+      position: absolute;
+      width: 10%;
+      height: 20em;
+      background: var(--primary-color);
+    }
+  }
+}
