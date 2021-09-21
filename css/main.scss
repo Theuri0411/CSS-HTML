@@ -229,10 +229,27 @@ nav {
   .navbar.container {
     display: grid;
     grid-template-columns: 180px auto;
-    justify-content: unset;
   }
 
   .navbar nav {
     display: flex;
+    justify-content: unset;
+    background: none;
+    position: unset;
+    height: auto;
+    width: 100%;
+    padding: 0;
+
+    ul {
+      display: flex;
+    }
+    a {
+      color: black;
+      font-size: 1em;
+      padding: o.1em 1em;
+    }
+    ul.primary-nav {
+      margin: 0;
+    }
   }
 }
